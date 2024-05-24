@@ -7,7 +7,7 @@ PIN EN 1 o 0 -> PTx->PSOR(1u<<n);
                       |
                       ---->Pin Set Output Register
 */
-int contador [8]={0, 1, 2, 3, 4, 5, 6, 7};
+int contador [4]={1, 2, 3, 4};
 int display[10][7]={
 //   a  b  c  d  e  f  g
     {1, 1, 1, 1, 1, 1, 0},//0
